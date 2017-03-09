@@ -28,6 +28,9 @@ define(function (require) {
         },
 
         setupModel: function() {
+
+            this.setupActivity();
+
             if (this.get('_type') === 'page') {
                 this._children = 'articles';
             }
@@ -52,6 +55,20 @@ define(function (require) {
                     this.checkLocking();
                 }
             }, this));
+        },
+
+        setupActivity: function() {
+            
+            var configActivity = this.get("_activity");
+
+            var defaultActivity = {
+                _type: "block",
+                _id: this.get("_id"),
+                name: this.get("displayTitle").trim() || this.get("title")
+            };
+
+            this.activity = Adapt.activity.create( configActivity, defaultActivity );
+            
         },
 
         setupChildListeners: function() {

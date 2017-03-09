@@ -35,6 +35,58 @@
             "_resetStatusOnLanguageChange": false
         }
     },
+    "_activity": {
+        "_isEnabled": true,
+        "_verbs": [
+            "abandoned",
+            "answered",
+            "asked",
+            "attempted",
+            "commented",
+            "completed",
+            "exited",
+            "experienced",
+            "failed",
+            "imported",
+            "initialized",
+            "interacted",
+            "launched",
+            "logged_in",
+            "logged_out",
+            "mastered",
+            "passed",
+            "preferred",
+            "progressed",
+            "registered",
+            "responded",
+            "resumed",
+            "satisfied",
+            "scored",
+            "shared",
+            "suspended",
+            "terminated",
+            "voided",
+            "waived"
+        ],
+        "_activityTypes": [
+            "assessment",
+            "attempt",
+            "block",
+            "course",
+            "file",
+            "interaction",
+            "lesson",
+            "link",
+            "media",
+            "meeting",
+            "module",
+            "objective",
+            "performance",
+            "profile",
+            "question",
+            "simulation"
+        ]
+    },
     "_disableAnimationFor": [".ie8", ".iPhone.version-7\\.0"],
     "build": {
     }

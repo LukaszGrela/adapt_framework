@@ -10,6 +10,7 @@ require([
     'core/js/models/courseModel',
     'core/js/models/questionModel',
     'core/js/views/navigationView',
+    'core/js/activity',
     'core/js/accessibility',
     'core/js/offlineStorage',
     'core/js/logging',
